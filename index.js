@@ -4,7 +4,7 @@ const fs = require('fs');
 const querystring = require('querystring');
 
 const ACCOUNT_SID = 'AC3e78bdd3ee6c134105e83495956d2865';
-const AUTH_TOKEN = '546aa32bc1695276194a2a3fb8a678b1';
+const AUTH_TOKEN = 'eff52124894f6660f471edb16f9cfc25';
 const TWILIO_NUMBER = 'whatsapp:+34604090190';
 const TEMPLATE_SID = 'HX2734563d4643472b62eca6229756e324';
 const DATOS_FILE = '/tmp/estados.json';
