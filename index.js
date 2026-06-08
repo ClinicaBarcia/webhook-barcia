@@ -25,7 +25,7 @@ function enviarTemplate(tlf, nombre, fecha, hora) {
   return new Promise((resolve, reject) => {
     const to = 'whatsapp:+34' + tlf.replace(/[^0-9]/g,'').replace(/^34/,'');
     const data = querystring.stringify({
-      From: TWILIO_NUMBER,
+      MessagingServiceSid: 'MGa6b348879cdf94fd6a1f612a95ae697c',
       To: to,
       ContentSid: TEMPLATE_SID,
       ContentVariables: JSON.stringify({ "1": nombre, "2": fecha, "3": hora })
